@@ -1,8 +1,50 @@
 body, html {
     height: 100%;
+    width: 100%;
     margin: 0;
-    background-color: black;
-  }
+    background: linear-gradient(to bottom, black, grey);
+}
+@font-face {
+    font-family: 'waterFont';
+    src: url(super-water-font/SuperWater-PVoOm.ttf);
+}
+h1{
+    font-family: 'waterFont';
+    font-size: 4em;
+    color: white;
+    margin-top: 0;
+}
+h2{
+    font-family: 'waterFont';
+    font-size: 2em;
+    color: yellow;
+    margin-top: 0;
+}
+.overlay {
+    z-index: 2; /* Ensure this is higher than the grid's z-index */
+    color: brown;
+    position: absolute;
+    top: 40%; /* Adjust this value to position it just above the middle */
+    left: 50%;
+    transform: translate(-50%, -50%);
+    box-shadow: 0 4px 8px rgb(132, 94, 94);
+    background: linear-gradient(135deg,rgba(255, 255, 255, 0.1), rgba(255, 255, 255, 0));
+     backdrop-filter: blur(10px) saturate(180%);
+    -webkit-backdrop-filter: blur(10px) saturate(180%);
+    /* lines 17 and 18 adds a glass effect */
+  border-radius: 12px;
+  border: 1px solid rgba(209, 213, 219, 0.3);
+  padding: 20px;
+  width: 30%;
+  margin: 50px auto;
+  text-align: center; 
+}
+img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
 
 .grid {
     display: grid;
@@ -17,6 +59,7 @@ body, html {
     bottom: 0;
     left: 0;
     right: 0;
+    z-index: 0;
 }
   
   .grid-item1 {
@@ -52,7 +95,7 @@ body, html {
   }
   
   .grid-item5 {
-    background-image: url("https://images.unsplash.com/photo-1534714259038-764cb4cf1d58?ixlib=rb-0.3.5&ixid=eyJhcHBfaWQiOjEyMDd9&s=d07ea713fcf12221034dafd8f4ffe82b&auto=format&fit=crop&w=1350&q=80");
+    background-image: url("https://images.unsplash.com/photo-1515694581961-1fbdb6840a5f?ixlib=rb-0.3.5&ixid=eyJhcHBfaWQiOjEyMDd9&s=4267be6fb944c94b672e0b3ddb458286&auto=format&fit=crop&w=634&q=80");
     background-size: cover;
     background-position: center;
     grid-column: 4/6;
@@ -82,3 +125,7 @@ body, html {
     grid-column: 6/8;
     grid-row: 1/6;
   }
+
+h1,h2{-webkit-animation:focus-in-expand 1s cubic-bezier(.25,.46,.45,.94) both;animation:focus-in-expand 1s cubic-bezier(.25,.46,.45,.94) both}
+
+ @-webkit-keyframes focus-in-expand{0%{letter-spacing:-.5em;-webkit-filter:blur(12px);filter:blur(12px);opacity:0}100%{-webkit-filter:blur(0);filter:blur(0);opacity:1}}@keyframes focus-in-expand{0%{letter-spacing:-.5em;-webkit-filter:blur(12px);filter:blur(12px);opacity:0}100%{-webkit-filter:blur(0);filter:blur(0);opacity:1}}
