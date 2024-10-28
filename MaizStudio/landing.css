@@ -50,7 +50,11 @@ h2 {
       border: 1px solid rgba(255, 255, 255, 0.39);
       
   padding: 20px;
+<<<<<<< Updated upstream
   width: 40%;
+=======
+ width: 40vw;
+>>>>>>> Stashed changes
   margin: 50px auto;
   text-align: center; 
 }
@@ -76,6 +80,72 @@ img {
   right: 0;
   z-index: 0;
 }
+<<<<<<< Updated upstream
+=======
+  
+  .grid-item1 {
+    background-image: url("https://images.unsplash.com/photo-1534719156993-f3c9448673bf?ixlib=rb-0.3.5&ixid=eyJhcHBfaWQiOjEyMDd9&s=f089cfa06eb1cd7c0f654b39d8fdfd07&auto=format&fit=crop&w=1350&q=80");
+    background-size: cover;
+    background-position: center;
+    grid-column: 2/4;
+    grid-row: 1/2;
+  }
+  
+  .grid-item2 {
+    background-image: url("https://images.unsplash.com/photo-1534759846116-5799c33ce22a?ixlib=rb-0.3.5&ixid=eyJhcHBfaWQiOjEyMDd9&s=19c8355cd5aff72debf2f4720f4c7e09&auto=format&fit=crop&w=688&q=80");
+    background-size: cover;
+    background-position: center;
+    grid-column: 2/2;
+    grid-row: 2/5;
+  }
+   .grid-item4 {
+    background-size: cover;
+    background-position: center;
+    grid-column: 1/4;
+    grid-row: 1/5;
+  }
+  .grid-item3 {
+    background-image: url("https://images.unsplash.com/photo-1508097549463-97f74cb9a6aa?ixlib=rb-0.3.5&ixid=eyJhcHBfaWQiOjEyMDd9&s=52c257bf60c788a1332419c74c6a8a01&auto=format&fit=crop&w=1350&q=80");
+    background-size: cover;
+    background-position: center;
+    grid-column: 1/5;
+    grid-row: 5/5;
+  }
+  
+ 
+  
+  .grid-item5 {
+    background-image: url("https://images.unsplash.com/photo-1515694581961-1fbdb6840a5f?ixlib=rb-0.3.5&ixid=eyJhcHBfaWQiOjEyMDd9&s=4267be6fb944c94b672e0b3ddb458286&auto=format&fit=crop&w=634&q=80");
+    background-size: cover;
+    background-position: center;
+    grid-column: 4/6;
+    grid-row: 1/3;
+  }
+  
+  .grid-item6 {
+    background-image: url("https://images.unsplash.com/photo-1515694581961-1fbdb6840a5f?ixlib=rb-0.3.5&ixid=eyJhcHBfaWQiOjEyMDd9&s=4267be6fb944c94b672e0b3ddb458286&auto=format&fit=crop&w=634&q=80");
+    background-size: cover;
+    background-position: center;
+    grid-column: 4/5;
+    grid-row: 3/5;
+  }
+  
+  .grid-item7 {
+    background-image: url("https://images.unsplash.com/photo-1534703580202-6123d4189ef6?ixlib=rb-0.3.5&ixid=eyJhcHBfaWQiOjEyMDd9&s=5478b30dec2346f00a40ab259d162068&auto=format&fit=crop&w=634&q=80");
+    background-size: cover;
+    background-position: center;
+    grid-column: 5/6;
+    grid-row: 3/6;
+  }
+  
+  .grid-item8 {
+    background-image: url("https://images.unsplash.com/photo-1534743901536-d184ed4194bc?ixlib=rb-0.3.5&s=21fd4555141d93425b8ee3f80f764e69&auto=format&fit=crop&w=634&q=80");
+    background-size: cover;
+    background-position: center;
+    grid-column: 5/8;
+    grid-row: 1/5;
+  }
+>>>>>>> Stashed changes
 
 .grid-item1,
 .grid-item2,
