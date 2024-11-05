@@ -1,0 +1,40 @@
+
+
+### List of things id love if possible on need ###
+
+
+### Necessary ###
+
+- Land Page with head to x pages, scroll down to see our top 3 best selling/perfomring maps, under that would be extra relevent info about what we do, why etc
+- Payment wall for maps (Either continue with Stripe or find some sort of way to have a Paypal invoice for maps eg downloadable files unlock on payment)
+- Fast loading imgs + Videos for the featured projeects (eg keep everything else optimised like using fast running js or less js if possible, SVG's over pure css etc)
+- Contact button (I made a shitty page for my coach which has a working contact button linked to an email if you wanna coppy that: https://unlocked-potential-coaching.netlify.app/) + Just include this but rework it to make sense eg name, email + options like 'want further details about a specific project' etc
+- Mobile support 
+
+
+### Bonuses ###
+
+- Preload html pages on hovering on a project img (bascially you can preload a html file if hovering over a cover pic so when its clicked it instatnly opens it)
+- Write a review section (where we would confirm, but being able to add a review would be very nice)
+- SEO optimistation 
+
+### Nonessential ###
+
+- Gradients (I love them) - Look at the unlocked coaching website for an example of that too (based on cursor)
+
+
+
+
+
+
+--- Payment idea ---
+
+I think having you manage this instead of having to do any UEFN work might be a lot nicer for both of us. So i was thinking just becaouse i wanna be carful with how much % i give away to everyone we could do it like this. 
+
+I could give you a specific % cut on what you're doing.
+
+So a flat monthly cut for the website itself, so if we sell 10 projects (£1,000) through the website you would take a 15% cut (£150).
+
+Then i would also add more cuts for promotion, so if you promote the website through SEO, social media etc i would pay you 30% of the money gained from that.
+
+Final cut would be content collecting, eg going into the uefn map code on highest graphics and getting good shots/footage of it to put up on the website, you can use the money to pay yourself this or someone else to do it for cheaper idm.
