@@ -1,0 +1,56 @@
+.card {
+  position: relative;
+  overflow: hidden;
+  background-position: center;
+  background-size: cover;
+  margin: 0;
+  width: 256px;
+  height: 283px;
+  border-radius: 10%;
+  object-fit: cover;
+  transition: transform 0.3s ease;
+
+}
+.card:hover {
+  transform: scale(1.05);
+}
+.overlay{
+  position: absolute; /* Set to absolute to position it inside the card */
+  top: 0; /* Cover the entire card */
+  left: 0;
+  width: 100%; /* Full width of the card */
+  height: 100%; /* Full height of the card */
+  background: rgba(0, 0, 0, 0.4); /* Transparent dark overlay */
+  z-index: 1; /* Ensure it stays below the content */
+}
+.content {
+  position: absolute; /* Set the content on top of the overlay */
+  top: 80%; /* Center vertically */
+  left: 50%; /* Center horizontally */
+  transform: translate(-50%, -50%); /* Perfect centering */
+  z-index: 2; /* Ensure it appears above the overlay */
+  text-align: center;
+
+}
+
+.content h2 {
+
+  font-size: 24px;
+  font-weight: bold;
+  opacity: 0.8;
+  text-shadow: 0 2px 4px rgba(0, 0, 0, 0.6), 0 0 10px rgba(255, 255, 255, 1), 0 0 20px rgba(255, 255, 255, 1); /* Brighter glow effect */
+}
+
+@media (max-width: 750px) {
+  .card {
+    width: 128px; /* 50% of the original width */
+    height: 149.5px; /* 50% of the original height */
+    padding: 5px; /* 50% of the original padding */
+    font-size: small;
+    display: flex;
+    flex-direction: column ;
+  }
+  .content h2 {
+    font-size: 16px;
+  }
+}

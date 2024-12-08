@@ -1,0 +1,137 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html{
+  background: #373d3b;
+  color: aliceblue;
+  
+  padding: 20px;
+}
+#title{
+  position: relative;
+  top: 140px;
+  left: 70px;
+ 
+}
+
+
+.bodyContainer{
+  margin: auto;
+  height: 80%;
+  width: 100%;
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  border: 1px solid blue;
+  display: flex;
+  flex-direction: row;
+
+}
+
+.Tycoon-Grid{
+  position: relative;
+  left: 0;
+  top: 40px;
+  justify-content: end;
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: row;
+  width: 80%;
+  padding: 50;
+  gap: 40px;
+  border: 1px solid red;
+}
+
+#InfoCard{
+  position: absolute; /* Use relative positioning */                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                         left: 200px;
+  top: 300px;
+  left: 30px;
+  background: gray;
+
+  width: 300px; /* Fixed width for consistency */
+  height: 350px; /* Dynamic height */
+  padding: 20px;
+  margin: 20px; /* Add margin for spacing */
+  border-radius: 8%;
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: column;
+  align-items: center;
+  gap: 20px;
+  z-index: 1;
+}
+p{
+  text-align: center;
+}
+
+@media (max-width: 924px) {
+  #title{
+    color: yellow;
+    position: relative;
+    top: 0px;
+    left: 0px;
+
+  }
+  html {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+  }
+  .bodyContainer{
+    margin: auto;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    border: 1px solid blue;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    
+
+  }
+  h1{
+    text-align: center;
+  }
+  .Tycoon-Grid {  
+    position: relative;
+    left: 0;
+    top: 0;
+    width: 100%;
+    
+  justify-content: center;
+  padding: 5px;
+  gap: 30px;
+  border: 1px solid red;
+
+  }
+  #InfoCard{
+    position: relative; /* Use relative positioning */
+    left: 0;
+    top: 0;
+    align-self: center;
+    height: auto;
+    align-items: center;
+    border-radius: 10%;
+    
+  }
+  }
+
+@media (min-width:1489px){
+  h1{
+    color: red;
+  }
+  .bodyContainer {
+   align-content: center;
+   height: 500px;
+  }
+
+  .Tycoon-Grid {
+    position: relative;
+    left: 0;
+    right: 0;
+  width: 100%;
+  justify-content:center;
+  
+  }
+}
