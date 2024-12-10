@@ -14,6 +14,8 @@ html{
   position: relative;
   top: 140px;
   left: 70px;
+  font-family: 'League Spartan', sans-serif;
+  font-size: 50px;
  
 }
 
@@ -22,8 +24,8 @@ html{
   margin: auto;
   height: 80%;
   width: 100%;
-  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
-  border: 1px solid blue;
+  font-family: 'League Spartan', sans-serif; 
+   border: 1px solid blue;
   display: flex;
   flex-direction: row;
 
@@ -48,7 +50,6 @@ html{
   top: 300px;
   left: 30px;
   background: gray;
-
   width: 300px; /* Fixed width for consistency */
   height: 350px; /* Dynamic height */
   padding: 20px;
@@ -60,14 +61,16 @@ html{
   align-items: center;
   gap: 20px;
   z-index: 1;
+  
 }
+
 p{
   text-align: center;
 }
 
-@media (max-width: 924px) {
+@media (max-width: 924px) { /* Small screens */
   #title{
-    color: yellow;
+  
     position: relative;
     top: 0px;
     left: 0px;
@@ -81,7 +84,7 @@ p{
   .bodyContainer{
     margin: auto;
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
-    border: 1px solid blue;
+
     display: flex;
     flex-direction: column;
     flex-wrap: wrap;
@@ -102,7 +105,7 @@ p{
   justify-content: center;
   padding: 5px;
   gap: 30px;
-  border: 1px solid red;
+
 
   }
   #InfoCard{
@@ -117,14 +120,34 @@ p{
   }
   }
 
-@media (min-width:1489px){
-  h1{
-    color: red;
+
+
+
+@media (min-width:1489px){  /* Large screens */
+  
+  #title{
+
+    position: relative;  
+    top: 10px;    /* resets positioning  */
+    left: 0px;
+    text-align: center; /* centers text */
   }
   .bodyContainer {
-   align-content: center;
-   height: 500px;
+    display: flex;
+    flex-direction: column; /* Change the direction of the flex container */
+     height: 500px;
+     align-content: center;
+     gap: 20px;
   }
+
+#InfoCard{
+  position: relative; /* Use relative positioning */
+  left: 0;
+  top: 0;
+  align-self: center;
+  height: auto; /* Dynamic height */
+  border-radius: 10%;
+}
 
   .Tycoon-Grid {
     position: relative;
